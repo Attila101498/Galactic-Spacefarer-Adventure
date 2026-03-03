@@ -1,0 +1,17 @@
+{
+  "cds": {
+    "requires": {
+      "auth": {
+        "kind": "mocked",
+        "users": {
+          "Viewer": {
+            "roles": ["Viewer"]
+          },
+          "Admin": {
+            "roles": ["Admin"]
+          }
+        }
+      }
+    }
+  }
+}

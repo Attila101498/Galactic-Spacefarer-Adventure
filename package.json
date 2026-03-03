@@ -1,0 +1,21 @@
+{
+  "name": "Galactic_Spacefarer_Adventure",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/cds": "^9"
+  },
+  "cds": {
+    "requires": {
+      "auth": {
+        "kind": "mocked"
+      }
+    }
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true
+}
